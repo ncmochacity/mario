@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+	<link href="css/game.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+			<nav class="menu">
+				
+				<ul>
+					<li><a class="play" href="mario.html">Return</a></li>
+					<li><a class="ch" href="http://donutsbean.tumblr.com" >100 Day Challenge</a></li>
+				</ul>
+			</nav>
+	</header>
+
+	<div class="container">
+			<p>Move Mario with up, right, left, down keys</p>
+		<div class="content">
+			
+			<div class"page">
+				
+ 				<img src="images/character.png">
+ 				
+ 				<form class='theform'>
+ 					<label for="opinion" class="label">Your thoughts: </label>
+ 					<input type="text" ng-model="opinion" placeholder="What are your thoughts?"></input>
+ 					<h1>{{opinion}}</h1>
+ 					
+ 				</form>
+        	</div>
+    		
+		</div>
+		<aside class="sidebar">
+			<h1>Links</h1>
+			<nav class="menu">
+				<ul class="side">
+					<li><a href="http://css-tricks.com">CSS Tricks</a></li>
+					<li><a href="http://www.sitepoint.com">SitePoint</a></li>
+					<li><a href="http://jquery.com">jQuery Documentation</a></li>
+
+				</ul>
+			</nav>
+		</aside>
+	</div>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+	<script src="js/mario.js"></script>
+</body>
+</html>
